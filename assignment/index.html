@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!--stylesheet imports-->
+    <!--stylesheet imports (these allow us to import and use style definitions from other files)-->
     <link rel="stylesheet" href="leaflet.css" />
   </head>
   <body>
@@ -9,11 +9,11 @@
     <div style="position: absolute; left: 0px; width: 400px; top: 0; bottom: 0;"></div>
     <!--map-->
     <div id="map" style="position: absolute; right: 0; left: 400px; top: 0; bottom: 0;"></div>
-    
-    <!--javascript imports-->
+
+    <!--javascript imports (these allow us to bring in javascript files we want to take advantage of in our code)-->
     <script src="leaflet.js"></script>
-    <!--The code below actually generates the map. Any code you would like to add
-    	should be between the "<script></script>" tags.-->
+    <!--The code below defines and generates the map-->
+    <!--START HERE (note the script tag)-->
     <script>
       var map = L.map('map', {
         center: [39.9522, -75.1639],
@@ -21,14 +21,15 @@
       });
 
       var Stamen_TonerLite = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
-	      attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      	subdomains: 'abcd',
-      	minZoom: 0,
-      	maxZoom: 20,
-      	ext: 'png'
+        attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        subdomains: 'abcd',
+        minZoom: 0,
+        maxZoom: 20,
+        ext: 'png'
       }).addTo(map);
 
       L.marker([50.5, 30.5]).addTo(map);
     </script>
+    <!--END HERE (again, note the script tag)-->
   </body>
 </html>
