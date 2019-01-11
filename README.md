@@ -5,12 +5,15 @@
 #### Code Academy
 
 * Sign up for [Code Academy](https://www.codecademy.com/)
-* None of the 'PRO' (non-free) sections are assigned!
 * Complete Units in the Course Academy [Introductory Javascript coursework](https://www.codecademy.com/learn/introduction-to-javascript)
   - Data, types, and assignment
   - Responding to conditions (conditionals)
   - Functions (defining behaviors that take some input and maybe return a result)
   - Scope/Scoping rules (where things are defined and where they aren't)
+
+> NOTE: All materials in this course are free by design. Any 'pro' sections
+> in code academy are not assigned
+
 
 ### Project
 
