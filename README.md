@@ -5,7 +5,8 @@
 #### Code Academy
 
 * Sign up for [Code Academy](https://www.codecademy.com/)
-* Complete Units in the Course Academy [Introductory Javascript coursework](https://www.codecademy.com/learn/introduction-to-javascript)
+* Complete Units 1 through 4 in the Course Academy
+[Introductory Javascript coursework](https://www.codecademy.com/learn/introduction-to-javascript)
   - Data, types, and assignment
   - Responding to conditions (conditionals)
   - Functions (defining behaviors that take some input and maybe return a result)
