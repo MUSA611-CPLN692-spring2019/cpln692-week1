@@ -1,4 +1,4 @@
-# Open Source Tools For GIS - Week 1
+# Introduction to Web Mapping - Week 1
 
 ### Readings/Homework
 
