@@ -4,6 +4,12 @@
 
 ### Readings/Homework
 
+#### Tools / Downloads
+
+* Create a [GitHub Account](github.com)
+* Install [git](https://git-scm.com/downloads)
+* Install [atom](https://atom.io/)
+
 #### Code Academy
 
 * Sign up for [Code Academy](https://www.codecademy.com/)
