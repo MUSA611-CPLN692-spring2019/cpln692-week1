@@ -1,6 +1,6 @@
 # Introduction to Web Mapping - Week 1
 
-some remote tweaks
+some remote tweaks local is best
 
 
 ### [Class Slides](https://docs.google.com/presentation/d/1nBZrNHXYB_SzEhYhF1_CrnQo1InH6sDGTCtqvS4ctZA/edit#slide=id.g4c98b26ad7_0_33)
@@ -69,5 +69,3 @@ of graphics cards to generate powerful vizualisations incredibly quickly). Mapbo
 more involved and we won't be touching on it until the second half of the course but the
 [examples provided by Mapbox](https://www.mapbox.com/mapbox-gl-js/example/simple-map/) are
 worth clicking through for inspiration and a sense of where we're headed.
-
-
