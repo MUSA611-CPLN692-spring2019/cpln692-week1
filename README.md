@@ -1,6 +1,17 @@
 # Introduction to Web Mapping - Week 1
 
+
+
+
+
+
+
+
+<<<<<<< HEAD
 some remote tweaks local is best
+=======
+some remote tweaks - remote is best
+>>>>>>> 1d66335ee885dd78aefc88dd5212dde7c87a6e21
 
 
 ### [Class Slides](https://docs.google.com/presentation/d/1nBZrNHXYB_SzEhYhF1_CrnQo1InH6sDGTCtqvS4ctZA/edit#slide=id.g4c98b26ad7_0_33)
