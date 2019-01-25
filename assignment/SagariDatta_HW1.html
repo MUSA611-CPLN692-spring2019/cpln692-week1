@@ -16,9 +16,13 @@
     <!--START HERE (note the script tag)-->
     <script>
       var map = L.map('map', {
-        center: [39.9522, -75.1639],
+        center: [39.956887, -75.196624],
         zoom: 14
       });
+
+      var marker1 = L.marker([39.955032, -75.202487]).addTo(map);
+      var marker2 = L.marker([39.956887, -75.196624]).addTo(map);
+      var marker3 = L.marker([39.953791, -75.188159]).addTo(map);
 
       var Stamen_TonerLite = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
         attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
