@@ -16,8 +16,8 @@
     <!--START HERE (note the script tag)-->
     <script>
       var map = L.map('map', {
-        center: [39.9522, -75.1639],
-        zoom: 14
+        center: [40.023341, -75.321082],
+        zoom: 12
       });
 
       var Stamen_TonerLite = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
@@ -28,7 +28,10 @@
         ext: 'png'
       }).addTo(map);
 
-      L.marker([50.5, 30.5]).addTo(map);
+      L.marker([40.002452, -75.274564]).addTo(map);
+      L.marker([40.023341, -75.321082]).addTo(map);
+      L.marker([40.083424, -75.405699]).addTo(map);
+
     </script>
     <!--END HERE (again, note the script tag)-->
   </body>
