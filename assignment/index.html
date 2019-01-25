@@ -16,7 +16,7 @@
     <!--START HERE (note the script tag)-->
     <script>
       var map = L.map('map', {
-        center: [39.9522, -75.1639],
+        center: [51.519, -0.1252],
         zoom: 14
       });
 
@@ -28,8 +28,20 @@
         ext: 'png'
       }).addTo(map);
 
-      L.marker([50.5, 30.5]).addTo(map);
+      L.marker([47.49, 19.056]).addTo(map)
+        .bindPopup('Budapest')
+        .openPopup();
+
+      L.marker([51.519, -0.1252]).addTo(map)
+        .bindPopup('Prezzo, London, England')
+        .openPopup();
+
+      L.marker([34.06,-118.2910]).addTo(map)
+        .bindPopup('KabaWoo House, Los Angeles, USA')
+        .openPopup();
+
+
     </script>
     <!--END HERE (again, note the script tag)-->
   </body>
-</html>
+</html>a
